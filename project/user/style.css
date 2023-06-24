@@ -1,0 +1,670 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+/*header*/
+
+.head {
+    text-transform: uppercase;
+    color: #7CC242;
+}
+
+.icon {
+    font-family: 'Luᴄida Bright';
+    font-weight: 450;
+    line-height: 30px;
+    font-size: 100px;
+    padding: 30px;
+    float: left;
+    margin: 10px 30px 10px;
+    transform: perspective(100px) rotateY(15deg);
+}
+
+.nameweb {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: none;
+    padding: 40px;
+    margin: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+/*menu*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr');
+
+
+.menu a {
+    font-family: 'Segoe UI', 'Calibri';
+    font-weight: 500;
+}
+
+.menu ul {
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.menu ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.menu ul li a {
+    color: #707070;
+    font-size: 25px;
+    padding: 7px 13px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    background: #7CC242;
+    color: #fff;
+}
+
+
+/*footer*/
+
+li {
+    list-style: none;
+}
+
+footer {
+    height: 250px;
+}
+
+.headfooter {
+    display: flex;
+}
+
+.iconfooter {
+    font-family: 'Calibri';
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 50px;
+    padding: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4a7e1f;
+    float: left;
+    width: 85%;
+
+}
+
+.return {
+    width: 10%;
+
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #DDDDDD;
+    font-family: Calibri;
+    
+}
+
+
+
+.social{
+    display: inline;
+    color: black;
+}
+
+.social a{
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 38px;
+}
+
+.social a:hover {
+    opacity: 0.5;
+}
+
+.social i{
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.return a i {
+    color: black;
+    font-size: 40px;
+}
+
+footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+
+
+.footerconten h4 {
+    clear: left;
+    font-size: 20px;
+    display: flex;
+}
+
+.thongTin {
+    margin-left: 5%;
+    float: left;
+    width: 30%;
+
+}
+
+.vepitu {
+    float: left;
+    width: 20%;
+}
+
+.hotro {
+    float: left;
+    width: 20%;
+}
+
+.social {
+    float: left;
+    width: 20%;
+}
+
+
+
+.copyright {
+    clear: left;
+}
+
+/*đang ky*/
+
+.setup {
+    height: 400px;
+    padding: 10px;
+    position: relative;
+    width: 600px;
+    margin: 100px auto;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 26px rgba(0, 0, 0, 0.13);
+
+    @media screen and (max-width: 750px) {
+        width: 90%;
+    }
+}
+
+.fdangky {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    max-width: 400px;
+    margin: 0 auto;
+
+    padding: 20 auto;
+    box-shadow: inset 0 3px 0 hsla(0, 0, 0, 0.2);
+}
+
+
+.fdangky h2,
+.fdangky label {
+    color: #707070;
+}
+
+.fdangky form {
+    display: block;
+}
+
+.fdangky label,
+.fdangky input {
+    display: block;
+}
+
+
+
+.fdangky input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+
+
+
+.fdangky button {
+
+    text-transform: uppercase;
+    border: none;
+    background: #7cc242;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: .8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+.tich input {
+    height: auto;
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+.tich input label {
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.tich {
+    padding: 5px;
+}
+
+.fdangky button:hover {
+    opacity: 0.5;
+}
+
+/*đang nhap*/
+
+.login {
+    height: 350px;
+    padding: 30px;
+    position: relative;
+    width: 700px;
+    margin: 100px auto;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 26px rgba(0, 0, 0, 0.13);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    @media screen and (max-width: 750px) {
+        width: 90%;
+    }
+
+}
+
+.login-connect a {
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    border: 1px solid #707070;
+    border-radius: 90px;
+    display: block;
+    text-align: center;
+
+}
+
+.nhapThuCong {
+    position: relative;
+    float: left;
+    width: 320px;
+    max-width: 340px;
+    margin: 0px;
+    border-right: 1px solid #707070;
+
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    letter-spacing: 5px !important;
+    font-size: 28px;
+}
+
+.login h2,
+.login label {
+    color: #707070;
+    font-family: Calibri;
+    letter-spacing: 2px;
+}
+
+.login form {
+    display: block;
+
+
+}
+
+.nhapThuCong {
+    display: block;
+}
+
+.login-connect {
+
+    position: relative;
+    display: block;
+    float: right;
+    max-width: 340px;
+    margin-top: 100px;
+    font-weight: 700;
+
+}
+
+.login button {
+
+    text-transform: uppercase;
+    margin: 10px;
+    border: none;
+    background: #7cc242;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: .8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 80%;
+    cursor: pointer;
+}
+
+
+
+.nhapThuCong input {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+
+.bt-facebook {
+    background-color: #fff;
+}
+
+
+.bt-google {
+    background-color: #fff;
+}
+
+.login-connect img {
+    width: 20px;
+    position: absolute;
+    margin: 4px -24px;
+}
+
+.forgot a {
+    font-size: 13xp;
+    float: right;
+    text-decoration: underline;
+    color: #6E6E6E;
+    letter-spacing: 2px;
+    font-family: Calibri;
+
+}
+
+.forgot {
+    justify-content: center;
+    margin: 10px;
+    margin-right: 40px;
+}
+
+.login button:hover {
+    opacity: 0.5;
+}
+
+.noaccount {
+    clear: left;
+
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    color: #737373;
+    letter-spacing: 2px;
+}
+.noaccount a {
+    color: #737373;
+    text-decoration: underline;
+}
+
+.noaccount a:hover {
+    color: #7CC242;
+}
+
+/* form nhập thông tin cá nhân */
+.nhapThongTinCaNhan {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    max-width: 400px;
+    margin: 0 auto;
+
+    padding: 20 auto;
+    box-shadow: inset 0 3px 0 hsla(0, 0, 0, 0.2);
+}
+
+
+.nhapThongTinCaNhan h2,
+.nhapThongTinCaNhan label {
+    color: #707070;
+}
+
+.nhapThongTinCaNhan form {
+    display: block;
+}
+
+.nhapThongTinCaNhan label,
+.nhapThongTinCaNhan input {
+    display: block;
+}
+
+
+
+.nhapThongTinCaNhan input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+
+
+
+.nhapThongTinCaNhan button {
+
+    text-transform: uppercase;
+    border: none;
+    background: #7cc242;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: .8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.nhapThongTinCaNhan button:hover {
+    opacity: 0.5;
+}
+
+/*in danh sách khoá học*/
+.list {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #fff;
+
+
+}
+
+.list a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 600;
+}
+
+.kh {
+    width: 30%;
+    height: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 40px;
+    vertical-align: top;
+}
+
+.anhkhoahoc {
+    width: 100%;
+    height: 90%;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.tenkhoahoc {
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 30px;
+}
+
+.kh .tenkhoahoc:hover{
+    opacity: 0.5;
+}
+
+/*danh mục khoá học*/
+
+.titledanhmuc {
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+hr {
+    border: 1px solid #7CC242;
+    color: #7CC242;
+    background: #7CC242;
+    padding: 1px;
+    margin: 10px auto;
+}
+
+.contenmuc h3 {
+    color: #707070;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Tầm nhìn */
+.tamnhin {
+    background: url('/img/20190919_041421_teacherbanner14.png') top center / cover no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tamnhin p{
+    color: #707070;
+}
+/*phần mở rộng xem thêm*/
+
+
+.morong {
+    text-align: center;
+}
+
+.morong a {
+    font-size: 28px;
+    color: #7CC242;
+    font-weight: 600;
+}
+
+.morong a:hover {
+    opacity: 0.5;
+}
+
+/*phần icon liên hệ */
+
+.iconconnect {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.icon1 {
+    text-align: center;
+    line-height: 30px;
+    font-size: 50px;
+    padding: 30px;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon1 a {
+    color: #707070;
+    font-size: 30px;
+}
+
+.icon1 p {
+    font-size: 30px;
+}
+
+.icon1 a:hover {
+    opacity: 0.5;
+}
+.banner{
+    width: 10px;
+}
+/* khoá học */
+
+.list_category {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #fff;
+    border-right: #707070 solid 1px;
+
+
+}
+
+.title_category h4{
+    color: #7CC242;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.list_category a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 600;
+}
+
+.TL{
+    width: 100%;
+    height: 50%;
+    display: block;
+    padding: 5px;   
+    border-bottom: 1px solid #707070;
+    border-top: 1px solid #707070;
+
+}
+
+.tenTheLoai {
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 30px;
+}
+
+.TL .tenTheLoai:hover{
+    color: #7CC242;
+}
